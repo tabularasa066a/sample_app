@@ -14,7 +14,7 @@ class ActiveSupport::TestCase
   end
 
   # テストユーザとしてログインする
-  def log_on_as(user)
+  def log_in_as(user)
     session[:user_id] = user.id
   end
 end
